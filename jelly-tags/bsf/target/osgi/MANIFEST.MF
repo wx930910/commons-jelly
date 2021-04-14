@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1615946342406
+Build-Jdk: 12.0.2
+Built-By: wx199
+Bundle-Description: This is a Jelly interface for the Bean Scripting Fra
+ mework.
+Bundle-DocURL: http://commons.apache.org/proper/commons-jelly/commons-je
+ lly-tags/commons-jelly-tags-bsf/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: commons-jelly-tags-bsf
+Bundle-SymbolicName: org.apache.commons.jelly
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.jelly.tags.bsf;version="1.1.0.SNAPSHO
+ T"
+Import-Package: org.apache.bsf,org.apache.bsf.util,org.apache.commons.je
+ lly,org.apache.commons.jelly.expression,org.apache.commons.jelly.impl,o
+ rg.apache.commons.jelly.tags.core,org.apache.commons.logging,org.xml.sa
+ x
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326

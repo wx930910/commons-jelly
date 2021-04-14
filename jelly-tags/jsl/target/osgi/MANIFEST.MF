@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1615946350429
+Build-Jdk: 12.0.2
+Built-By: wx199
+Bundle-Description: The Jelly Stylesheet Library (JSL).
+Bundle-DocURL: http://commons.apache.org/proper/commons-jelly/commons-je
+ lly-tags/commons-jelly-tags-jsl/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: commons-jelly-tags-jsl
+Bundle-SymbolicName: org.apache.commons.jelly
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.jelly.tags.jsl;version="1.1.0.SNAPSHO
+ T"
+Import-Package: org.apache.commons.jelly,org.apache.commons.jelly.expres
+ sion,org.apache.commons.jelly.expression.xpath,org.apache.commons.jelly
+ .impl,org.apache.commons.jelly.tags.xml,org.apache.commons.jelly.xpath,
+ org.apache.commons.logging,org.dom4j,org.dom4j.rule,org.jaxen
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326

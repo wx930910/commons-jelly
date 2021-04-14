@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1615946347472
+Build-Jdk: 12.0.2
+Built-By: wx199
+Bundle-Description: This is a Jelly interface for SWT.
+Bundle-DocURL: http://commons.apache.org/proper/commons-jelly/commons-je
+ lly-tags/commons-jelly-tags-swt/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: commons-jelly-tags-swt
+Bundle-SymbolicName: org.apache.commons.jelly
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.jelly.tags.swt;version="1.1.0.SNAPSHO
+ T",org.apache.commons.jelly.tags.swt.converters;version="1.1.0.SNAPSHOT
+ "
+Import-Package: org.apache.commons.beanutils,org.apache.commons.jelly,or
+ g.apache.commons.jelly.impl,org.apache.commons.jelly.tags.core,org.apac
+ he.commons.jelly.util,org.apache.commons.logging,org.eclipse.swt,org.ec
+ lipse.swt.custom,org.eclipse.swt.graphics,org.eclipse.swt.layout,org.ec
+ lipse.swt.widgets,org.xml.sax
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326

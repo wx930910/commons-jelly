@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1615946352042
+Build-Jdk: 12.0.2
+Built-By: wx199
+Bundle-Description: This is a Jelly interface for jface.
+Bundle-DocURL: http://commons.apache.org/proper/commons-jelly/commons-je
+ lly-tags/commons-jelly-tags-jface/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: commons-jelly-tags-jface
+Bundle-SymbolicName: org.apache.commons.jelly
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.jelly.tags.jface;version="1.1.0.SNAPS
+ HOT",org.apache.commons.jelly.tags.jface.impl;version="1.1.0.SNAPSHOT",
+ org.apache.commons.jelly.tags.jface.preference;version="1.1.0.SNAPSHOT"
+ ,org.apache.commons.jelly.tags.jface.window;version="1.1.0.SNAPSHOT",or
+ g.apache.commons.jelly.tags.jface.wizard;version="1.1.0.SNAPSHOT"
+Import-Package: org.apache.commons.jelly,org.apache.commons.jelly.impl,o
+ rg.apache.commons.jelly.tags.core,org.apache.commons.jelly.tags.swt,org
+ .apache.commons.jelly.tags.swt.converters,org.apache.commons.logging,or
+ g.eclipse.jface.action,org.eclipse.jface.preference,org.eclipse.jface.v
+ iewers,org.eclipse.jface.window,org.eclipse.jface.wizard,org.eclipse.sw
+ t.graphics,org.eclipse.swt.widgets,org.xml.sax
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326

@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1615946351582
+Build-Jdk: 12.0.2
+Built-By: wx199
+Bundle-Description: This is a Jelly interface for configuring Swing appl
+ ications.
+Bundle-DocURL: http://commons.apache.org/proper/commons-jelly/commons-je
+ lly-tags/commons-jelly-tags-swing/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: commons-jelly-tags-swing
+Bundle-SymbolicName: org.apache.commons.jelly
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.jelly.tags.swing;version="1.1.0.SNAPS
+ HOT",org.apache.commons.jelly.tags.swing.converters;version="1.1.0.SNAP
+ SHOT",org.apache.commons.jelly.tags.swing.impl;version="1.1.0.SNAPSHOT"
+ ,org.apache.commons.jelly.tags.swing.model;version="1.1.0.SNAPSHOT"
+Import-Package: javax.swing,javax.swing.border,javax.swing.table,org.apa
+ che.commons.beanutils,org.apache.commons.jelly,org.apache.commons.jelly
+ .expression,org.apache.commons.jelly.impl,org.apache.commons.jelly.tags
+ .core,org.apache.commons.lang,org.apache.commons.logging,org.xml.sax
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326

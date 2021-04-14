@@ -1,0 +1,6 @@
+<t:test xmlns:t="jelly:test">
+	
+	<t:echo id="1" attr="${ 1 + 2 }">${ 'hello' + " world" }</t:echo>
+	<t:echo id="2" attr="${ 2 + 3 }"><sometag>${ 'goodbye cruel' + " world" }</sometag></t:echo>
+	
+</t:test>

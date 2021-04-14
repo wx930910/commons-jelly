@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1615946348576
+Build-Jdk: 12.0.2
+Built-By: wx199
+Bundle-Description: This is a Jelly interface for Ant.
+Bundle-DocURL: http://commons.apache.org/proper/commons-jelly/commons-je
+ lly-tags/commons-jelly-tags-ant/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: commons-jelly-tags-ant
+Bundle-SymbolicName: org.apache.commons.jelly
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.jelly.tags.ant;version="1.1.0.SNAPSHO
+ T",org.apache.commons.jelly.task;version="1.1.0.SNAPSHOT"
+Import-Package: org.apache.commons.beanutils,org.apache.commons.jelly,or
+ g.apache.commons.jelly.expression,org.apache.commons.jelly.impl,org.apa
+ che.commons.jelly.parser,org.apache.commons.logging,org.apache.tools.an
+ t,org.apache.tools.ant.taskdefs.optional.junit,org.apache.tools.ant.typ
+ es,org.apache.tools.ant.util,org.xml.sax
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326

@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1615946341144
+Build-Jdk: 12.0.2
+Built-By: wx199
+Bundle-Description: Apache Commons Jelly is a Java and XML based scripti
+ ng engine. Jelly combines the best ideas from JSTL, Velocity, DVSL, Ant
+  and Cocoon all together in a simple yet powerful scripting engine.
+Bundle-DocURL: http://commons.apache.org/proper/commons-jelly/commons-je
+ lly/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons Jelly Core
+Bundle-SymbolicName: org.apache.commons.jelly
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.jelly;version="1.1.0.SNAPSHOT",org.ap
+ ache.commons.jelly.expression;version="1.1.0.SNAPSHOT",org.apache.commo
+ ns.jelly.expression.jexl;version="1.1.0.SNAPSHOT",org.apache.commons.je
+ lly.expression.xpath;version="1.1.0.SNAPSHOT",org.apache.commons.jelly.
+ impl;version="1.1.0.SNAPSHOT",org.apache.commons.jelly.parser;version="
+ 1.1.0.SNAPSHOT",org.apache.commons.jelly.servlet;version="1.1.0.SNAPSHO
+ T",org.apache.commons.jelly.tags;version="1.1.0.SNAPSHOT",org.apache.co
+ mmons.jelly.tags.core;version="1.1.0.SNAPSHOT",org.apache.commons.jelly
+ .test;version="1.1.0.SNAPSHOT",org.apache.commons.jelly.util;version="1
+ .1.0.SNAPSHOT",org.apache.commons.jelly.xpath;version="1.1.0.SNAPSHOT"
+Import-Package: javax.servlet,javax.servlet.http,javax.servlet.jsp.jstl.
+ core,javax.swing,javax.xml.parsers,junit.framework,org.apache.commons.b
+ eanutils,org.apache.commons.beanutils.converters,org.apache.commons.cli
+ ,org.apache.commons.collections,org.apache.commons.collections.iterator
+ s,org.apache.commons.discovery,org.apache.commons.discovery.resource,or
+ g.apache.commons.discovery.resource.classes,org.apache.commons.jexl,org
+ .apache.commons.lang,org.apache.commons.logging,org.dom4j,org.dom4j.io,
+ org.jaxen,org.jaxen.dom4j,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpe
+ rs
+Include-Resource: org/apache/commons/jelly/jelly.properties=src/main/res
+ ources/org/apache/commons/jelly/jelly.properties,org/apache/commons/jel
+ ly/tags/Resources.properties=src/main/resources/org/apache/commons/jell
+ y/tags/Resources.properties
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326
